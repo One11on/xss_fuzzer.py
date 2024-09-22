@@ -4,9 +4,9 @@ This tools used fuzzing technique
 
 Requirement
 
-go install github.com/tomnomnom/qsreplace@latest
+    go install github.com/tomnomnom/qsreplace@latest
 
-go install github.com/rix4uni/xsschecker@latest
+    go install github.com/rix4uni/xsschecker@latest
 
 usage: xss_fuzzer.py [-h] -u URLS -p PAYLOADS [--threads THREADS] [-s] [-o OUTPUT]
 
