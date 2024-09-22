@@ -17,13 +17,12 @@ options:
   
   -u URLS, --urls URLS  File containing vulnerable URLs
   
-  -p PAYLOADS, --payloads PAYLOADS
-  
-                        File containing XSS payloads
+  -p PAYLOADS, --payloads PAYLOADS   File containing XSS payloads
+                        
   --threads THREADS     Maximum number of threads (default: 10)
   
   -s, --silent          Hide non-vulnerable results
   
-  -o OUTPUT, --output OUTPUT
-  
-                        Output file to save vulnerable URLs
+  -o OUTPUT, --output OUTPUT    Output file to save vulnerable URLs
+
+    python xss_fuzzer.py -p all-payload.txt -u xss-vul-web.txt --threads 20 -s
